@@ -1,12 +1,38 @@
-import React from "react";
+import Header from "./components/header";
 
-function Component() {
+// create component in functional way
+function App() {
   return (
-    //   Code Here
-    <div></div>
+    <div className="app">
+      <Header />
+      <div>This is App Component</div>
+      <Content />
+    </div>
   );
 }
 
-// Create a new component here
+function Content() {
+  return <div>Content component</div>;
+}
 
-export default Component;
+// create component in Class way
+import React, { Component } from "react";
+class App extends Component {
+  render() {
+    return (
+      <div className="app">
+        <Header />
+        <div>This is App Component</div>
+        <Content />
+      </div>
+    );
+  }
+}
+
+class Content extends Component {
+  render() {
+    return <div>Content of this page</div>;
+  }
+}
+
+export default App;
