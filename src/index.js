@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import ConditionRenderin from "./conditionRendering";
+import ListData from "./ListData";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ConditionRenderin />
+    <ListData />
   </React.StrictMode>,
   document.getElementById("root")
 );

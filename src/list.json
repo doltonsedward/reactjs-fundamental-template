@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Mustang GT",
+    "type": "sport",
+    "image": "./assets/image1.png"
+  },
+  {
+    "name": "Chevrolet ZX",
+    "type": "SUV",
+    "image": "./assets/image1.png"
+  },
+  {
+    "name": "Honda Civic",
+    "type": "Sedan",
+    "image": "./assets/image1.png"
+  }
+]
